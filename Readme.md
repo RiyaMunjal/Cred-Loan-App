@@ -36,57 +36,62 @@ Make sure you have the following installed:
 ## Installation
 ### Clone the Repository:
 
-git clone https://github.com/yourusername/loan-application.git
-cd loan-application
+git clone ****
+cd CRED-PROJECT-APP
 
 ### Install Dependencies:
-npm install
+   ```bash 
+   npm install
+   ```
 
-### Create an Expo Account (if you don't have one):
-Sign up at expo.dev.
 
-Remember your username and password; you'll need them to run the app.
-Running the Application Locally
+## Create an Expo Account (if you don't have one):
+Sign up at https://expo.dev.
 
-Start the Development Server:
+***Remember your username and password; you'll need them to run the app.***
+**Running the Application Locally**
+###Start the Development Server:
+```bash
 expo start
+```
 
 **This will open Expo DevTools in your browser.**
+###Open on a Device or Emulator:
 
-Open on a Device or Emulator:
-
-Expo Go App (Physical Device): Install Expo Go, scan the QR code from Expo DevTools.
-
-iOS Simulator (Mac only): Press i in the terminal or select "Run on iOS simulator" in Expo DevTools.
-
-Android Emulator: Press a in the terminal or select "Run on Android emulator" in Expo DevTools. Ensure an emulator is set up in Android Studio.
+- **Expo Go App (Physical Device)**: Install Expo Go, scan the QR code from Expo DevTools.
+- **iOS Simulator (Mac only)**: Press i in the terminal or select "Run on iOS simulator" in Expo DevTools.
+- **Android Emulator** : Press a in the terminal or select "Run on Android emulator" in Expo DevTools. Ensure an emulator is set up in Android Studio.
 
 ## Application Structure
 
-App.jsx: Main application logic with stack views for expanded and collapsed states.
-
-StackViewManager.js: Manages the state for toggling views, ensuring only one view is expanded at a time.
-
-Components: Contains reusable UI components like CircularSlider, EMIOption, and BankAccountSelection.
+- **App.jsx:** Main application logic with stack views for expanded and collapsed states.
+- **StackViewManager.js:** Manages the state for toggling views, ensuring only one view is expanded at a time.
+- **Components:** Contains reusable UI components like CircularSlider, EMIOption, and BankAccountSelection.
 Expandable and Collapsible Views
 
-The project features a stack framework that supports expandable and collapsible views:
+### The project features a stack framework that supports expandable and collapsible views:
 
-Collapsed State: Displays minimal information, like titles or icons.
+- **Collapsed State:** Displays minimal information, like titles or icons.
 
-Expanded State: Shows detailed information, such as loan amount and EMI plans.
+- **Expanded State:** Shows detailed information, such as loan amount and EMI plans.
 
-Toggle Functionality: Clicking on any collapsed view expands it, and collapses the currently expanded view.
+### Toggle Functionality: Clicking on any collapsed view expands it, and collapses the currently expanded view.
 
 ## Building for Production
 To create an APK file for Android:
-
 **Install EAS CLI:**
+```bash
 npm install -g eas-cli
+```
 
 **Run the Build Command:**
+```bash
 eas build -p android --profile preview
+```
 
 This will generate an APK file that can be downloaded and installed on Android devices
 
 The link To download the APK : https://expo.dev/accounts/riyamunjal/projects/Cred-project-app/builds/37022e57-2328-42e7-823e-0570a1393257
+
+
+
