@@ -35,9 +35,10 @@ Make sure you have the following installed:
 
 ## Installation
 ### Clone the Repository:
-
+```bash 
 git clone ****
 cd CRED-PROJECT-APP
+```
 
 ### Install Dependencies:
    ```bash 
